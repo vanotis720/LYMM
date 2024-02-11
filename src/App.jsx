@@ -1,4 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 import './App.css'
+import Header from './components/Header'
 import Nav from './components/Nav'
 
 function App() {
@@ -6,6 +8,7 @@ function App() {
   return (
     <>
      <Nav/>
+     <Header/>
     </>
   )
 }

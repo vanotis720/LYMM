@@ -26,7 +26,7 @@ const Nav = () => {
     return (
         <div className="">
             <div className="bg-[#E7E7E7] flex justify-between items-center shadow-md w-full h-16 fixed top-0 left-0">
-                <img className="w-1/3 mr-4 h-auto md:w-1/12 md:h-20" src="/src/assets/image/LYMM FINAL & co_Plan de travail 1(1).png" alt="LYMM" />
+                <img className="w-1/3 mr-4 h-auto md:w-1/12 md:h-20" src="src/assets/image/LYMM FINAL & co_Plan de travail 1(1).png" alt="LYMM" />
                     <div onClick={()=> setIsOpen(!isOpen) } className="absolute right-4 top-3 cursor-pointer md:hidden">
                         {
                             isOpen? 
@@ -35,7 +35,7 @@ const Nav = () => {
                             <Icon className="text-[#C69C59] w-10 h-10" icon="healthicons:ui-menu-negative" />
                         }  
                     </div>
-                    <ul className={` bg-[#E7E7E7] md:flex pl-5 md:pl-0 md:items-center md:pb-0 pb-12 z-[-1] absolute left-0 w-full md:z-auto transition-all duration-500 ease-in flex md:flex-row flex-col md:justify-between justify-between 
+                    <ul className={` bg-[#E7E7E7] md:flex pl-5 md:pl-0  md:items-center md:pb-0 pb-12 z-[1] absolute left-0 w-full md:z-auto transition-all duration-1000 ease-in flex md:flex-row flex-col md:justify-between justify-between 
                     ${isOpen? 'top-12':'top-[-490px]'}`}>
                         {
                             links.map(link => <li className={link.className} ><Link to="/" > {link.name} </Link></li>)
