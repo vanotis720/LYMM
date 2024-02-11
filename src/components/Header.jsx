@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Header = () => {
     return (
         <div>
@@ -10,7 +11,7 @@ const Header = () => {
         </div>
       </div>
       <div className='w-1/2 bg-[#C69C59]'>
-        <img src="src/assets/image/1000_F_322946786_pqjAL5xz3tc7JnOhZFyMWXV3NETtHVKx.jpg" alt="" className=' rounded-bl-[500px] h-full w-full object-cover' />
+        <img src="./src/assets/image/1000_F_322946786_pqjAL5xz3tc7JnOhZFyMWXV3NETtHVKx.jpg" alt="" className=' rounded-bl-[500px] h-full w-full object-cover' />
       </div>
      </div>
         </div>
