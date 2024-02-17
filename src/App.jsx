@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import './App.css'
 import Header from './components/Header'
+import Location from './components/Location'
 import Nav from './components/Nav'
 import Offres from './components/Offres'
 
@@ -11,6 +12,7 @@ function App() {
      <Nav/>
      <Header/>
      <Offres/>
+     <Location/>
     </>
   )
 }
