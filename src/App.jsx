@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './components/Header'
 import Nav from './components/Nav'
+import Offres from './components/Offres'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
     <>
      <Nav/>
      <Header/>
-     
+     <Offres/>
     </>
   )
 }
