@@ -6,7 +6,7 @@ const Header = () => {
         <div className="w-1/2">
           <div className="grid grid-rows-3 items-center w-full sm:pl-28 absolute bottom-60 sm:bottom-96">
             <p className="text-white text-2xl sm:text-6xl">
-              Bien en location : on s'occupe <br /> de tout au meilleur coût.{" "}
+              Bien en location : on s'occupe <br /> de tout au meilleur coût.
             </p>
             <p className="text-white sm:text-3xl flex justify-center sm:justify-start">
               Mise en location - Gestion de la location et du locataire -
