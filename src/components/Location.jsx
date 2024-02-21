@@ -1,3 +1,4 @@
+import locationImg from "/src/assets/images/location.jpg";
 
 const Location = () => {
   return (
@@ -8,8 +9,8 @@ const Location = () => {
         </div>
         <div className="sm:w-1/2 w-full m-auto">
           <img
-            src="src/assets/image/01-conseils-eclairage-piece-par-piece.jpg"
-            alt=""
+            src={locationImg}
+            alt="location Img"
             className="w-[95%] h-[90%] rounded-3xl "
           />
         </div>
