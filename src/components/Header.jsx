@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import bannerBg from "/src/assets/images/banner-bg.jpg";
+
 const Header = () => {
   return (
     <div>
@@ -19,8 +21,8 @@ const Header = () => {
         </div>
         <div className="w-1/2 ">
           <img
-            src="./src/assets/images/1000_F_322946786_pqjAL5xz3tc7JnOhZFyMWXV3NETtHVKx.jpg"
-            alt=""
+            src={bannerBg}
+            alt="banner bg images"
             className=" rounded-bl-[500px] h-full w-full object-cover"
           />
         </div>
