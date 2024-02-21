@@ -39,7 +39,7 @@ const Nav = () => {
       <div className="bg-[#E7E7E7] flex justify-between items-center shadow-md w-full h-16 fixed top-0 left-0">
         <img
           className="w-1/3 mr-4 h-auto md:w-1/12 md:h-20"
-          src="./src/assets/image/LYMM FINAL & co_Plan de travail 1(1).png"
+          src="./src/assets/images/LYMM FINAL & co_Plan de travail 1(1).png"
           alt="LYMM"
         />
         <div

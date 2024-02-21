@@ -1,4 +1,3 @@
-
 const Location = () => {
   return (
     <div>
@@ -8,7 +7,7 @@ const Location = () => {
         </div>
         <div className="sm:w-1/2 w-full m-auto">
           <img
-            src="src/assets/image/01-conseils-eclairage-piece-par-piece.jpg"
+            src="src/assets/images/01-conseils-eclairage-piece-par-piece.jpg"
             alt=""
             className="w-[95%] h-[90%] rounded-3xl "
           />

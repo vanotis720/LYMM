@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="w-1/2 ">
           <img
-            src="./src/assets/image/1000_F_322946786_pqjAL5xz3tc7JnOhZFyMWXV3NETtHVKx.jpg"
+            src="./src/assets/images/1000_F_322946786_pqjAL5xz3tc7JnOhZFyMWXV3NETtHVKx.jpg"
             alt=""
             className=" rounded-bl-[500px] h-full w-full object-cover"
           />
